@@ -1,0 +1,3 @@
+timestamp,host,event,device_id,serial
+2026-11-15 07:44:30,HOSP-WS-14,USB mass storage inserted,VID_0951&PID_1666 (fictional),OMEGA-USB-0001
+2026-11-15 07:47:05,HOSP-WS-14,USB mass storage removed,VID_0951&PID_1666 (fictional),OMEGA-USB-0001

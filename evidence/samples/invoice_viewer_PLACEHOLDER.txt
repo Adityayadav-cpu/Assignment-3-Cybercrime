@@ -1,0 +1,2 @@
+Case Omega training placeholder for the phishing attachment.
+Contains no executable or malicious content.

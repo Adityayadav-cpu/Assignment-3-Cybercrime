@@ -1,0 +1,4 @@
+timestamp,host,account,event,source
+2026-11-15 07:42:11,HOSP-WS-14,nurse.priya,Interactive logon (4624 type 2),console
+2026-11-15 07:56:40,HOSP-SRV-01,svc_backup,Network logon (4624 type 3),HOSP-WS-14 10.20.5.14
+2026-11-15 07:56:44,HOSP-SRV-01,svc_backup,Special privileges assigned (4672),HOSP-WS-14 10.20.5.14

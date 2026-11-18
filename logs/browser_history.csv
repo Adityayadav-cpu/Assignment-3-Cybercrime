@@ -1,0 +1,4 @@
+timestamp,host,user,url,note
+2026-11-15 07:46:52,HOSP-WS-14,nurse.priya,https://mail.casomega-hospital.test/inbox,webmail opened
+2026-11-15 07:47:30,HOSP-WS-14,nurse.priya,https://mail.casomega-hospital.test/attach/invoice_Q4.zip,attachment downloaded
+2026-11-15 07:51:10,HOSP-WS-14,nurse.priya,https://198.51.100.24/update/check,redirect/beacon page (TEST-NET)

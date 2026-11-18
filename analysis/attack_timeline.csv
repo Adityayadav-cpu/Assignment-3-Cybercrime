@@ -1,0 +1,25 @@
+timestamp,host,source,event
+2026-11-15 07:42:11,HOSP-WS-14,AUTH,nurse.priya: Interactive logon (4624 type 2) from console
+2026-11-15 07:44:30,HOSP-WS-14,USB,USB mass storage inserted (serial OMEGA-USB-0001)
+2026-11-15 07:46:52,HOSP-WS-14,BROWSER,https://mail.casomega-hospital.test/inbox - webmail opened
+2026-11-15 07:47:05,HOSP-WS-14,USB,USB mass storage removed (serial OMEGA-USB-0001)
+2026-11-15 07:47:30,HOSP-WS-14,BROWSER,https://mail.casomega-hospital.test/attach/invoice_Q4.zip - attachment downloaded
+2026-11-15 07:48:03,HOSP-WS-14,PROCESS,explorer.exe <- userinit.exe
+2026-11-15 07:49:18,HOSP-WS-14,PROCESS,invoice_viewer.exe <- explorer.exe
+2026-11-15 07:49:55,HOSP-WS-14,PROCESS,schtasks.exe <- invoice_viewer.exe
+2026-11-15 07:49:58,HOSP-WS-14,PROCESS,reg.exe <- invoice_viewer.exe
+2026-11-15 07:51:02,HOSP-WS-14,NETWORK,10.20.5.14 -> 198.51.100.24:443 ALLOW (18234 B out)
+2026-11-15 07:51:10,HOSP-WS-14,BROWSER,https://198.51.100.24/update/check - redirect/beacon page (TEST-NET)
+2026-11-15 07:53:40,HOSP-WS-14,NETWORK,10.20.5.14 -> 198.51.100.24:443 ALLOW (9120 B out)
+2026-11-15 07:56:39,HOSP-WS-14,NETWORK,10.20.5.14 -> 10.20.8.2:445 ALLOW (4410 B out)
+2026-11-15 07:56:40,HOSP-SRV-01,AUTH,svc_backup: Network logon (4624 type 3) from HOSP-WS-14 10.20.5.14
+2026-11-15 07:56:44,HOSP-SRV-01,AUTH,svc_backup: Special privileges assigned (4672) from HOSP-WS-14 10.20.5.14
+2026-11-15 08:02:00,HOSP-SRV-01,FILE,D:\Shares\Clinical : 120
+2026-11-15 08:03:00,HOSP-SRV-01,FILE,D:\Shares\Clinical : 410
+2026-11-15 08:04:00,HOSP-SRV-01,FILE,D:\Shares\Clinical : 690
+2026-11-15 08:04:27,HOSP-SRV-01,FILE,D:\Shares\Clinical\README_RESTORE_FILES.txt : 1 (new file)
+2026-11-15 08:05:00,HOSP-SRV-01,FILE,D:\Shares\Clinical : 880
+2026-11-15 08:06:00,HOSP-SRV-01,FILE,D:\Shares\Clinical : 1010
+2026-11-15 08:06:10,HOSP-SRV-01,EDR,Mass file modification / rename
+2026-11-15 08:08:52,NETWORK,SOC action,Server VLAN isolated by incident commander
+2026-11-15 08:14:06,HOSP-SRV-01,IR,Forensic acquisition authorised/started (scenario)

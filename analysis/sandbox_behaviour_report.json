@@ -1,0 +1,13 @@
+{
+  "_note": "SIMULATED sandbox/telemetry summary for the Case Omega exercise. No real malware was executed or supplied.",
+  "sample": {"name": "invoice_viewer.exe (simulated)", "delivered_as": "invoice_Q4.zip"},
+  "process_tree": ["outlook/webmail -> explorer.exe -> invoice_viewer.exe -> schtasks.exe, reg.exe"],
+  "persistence": [
+    {"type": "Scheduled task", "name": "OmegaSync", "trigger": "on logon"},
+    {"type": "Registry Run key", "key": "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run", "value": "InvoiceViewer"}
+  ],
+  "network": [{"dst": "198.51.100.24", "port": 443, "note": "TEST-NET documentation address"}],
+  "file_impact": {"target": "D:\\Shares\\Clinical", "pattern": "rename to *.omega_locked, high-entropy content", "peak_files_per_minute": 1010},
+  "ransom_note": "README_RESTORE_FILES.txt",
+  "mitre_attack": ["T1566.001 Phishing: Attachment", "T1204.002 User Execution", "T1053.005 Scheduled Task", "T1547.001 Run Keys", "T1078 Valid Accounts", "T1021.002 SMB/Windows Admin Shares", "T1486 Data Encrypted for Impact"]
+}

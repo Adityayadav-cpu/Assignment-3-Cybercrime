@@ -1,0 +1,5 @@
+timestamp,host,process,parent,command_line
+2026-11-15 07:48:03,HOSP-WS-14,explorer.exe,userinit.exe,open C:\Users\nurse.priya\Downloads\invoice_Q4.zip
+2026-11-15 07:49:18,HOSP-WS-14,invoice_viewer.exe,explorer.exe,C:\Users\nurse.priya\Downloads\invoice_viewer.exe
+2026-11-15 07:49:55,HOSP-WS-14,schtasks.exe,invoice_viewer.exe,/create /tn OmegaSync /sc onlogon (simulated)
+2026-11-15 07:49:58,HOSP-WS-14,reg.exe,invoice_viewer.exe,add HKCU\...\Run /v InvoiceViewer (simulated)
