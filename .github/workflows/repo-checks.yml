@@ -1,0 +1,14 @@
+name: repo-checks
+on: [push, pull_request]
+jobs:
+  structure-and-markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Verify repository structure and Markdown formatting
+        run: python3 scripts/check_repo.py
+      - name: Verify evidence image hash
+        run: cd evidence && sha256sum -c OMEGA-E01.dd.sha256
